@@ -1,3 +1,4 @@
+library(tidyverse)
 attach(mtcars)
 
 ggplot(data=mtcars, aes(x = wt, y = mpg)) + 
